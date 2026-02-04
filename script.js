@@ -112,7 +112,7 @@ function displayWeather(data) {
     if (data && data.weather && data.main) {
 
         if(iconCode == '01d'){
-            document.body.style.backgroundImage = "url('../img/clearsky.png')";
+            document.body.style.backgroundImage = "url('img/clearsky.png')";
             document.body.style.backgroundSize = "cover";
             document.body.style.backgroundAttachment = "fixed";
             document.body.style.backgroundPosition = "center";
@@ -123,7 +123,7 @@ function displayWeather(data) {
 
         }
         else if(iconCode == '01n'){
-            document.body.style.backgroundImage = "url('../img/clearsky-night.jpg')";
+            document.body.style.backgroundImage = "url('img/clearsky-night.jpg')";
             document.body.style.backgroundSize = "cover";
             document.body.style.backgroundAttachment = "fixed";
             document.body.style.backgroundPosition = "center";
@@ -133,7 +133,7 @@ function displayWeather(data) {
             weatherIcon.style.display = 'block'; 
         }
         else if(iconCode == '02d'){
-            document.body.style.backgroundImage = "url('../img/few-clouds.jpg')";
+            document.body.style.backgroundImage = "url('img/few-clouds.jpg')";
             document.body.style.backgroundSize = "cover";
             document.body.style.backgroundAttachment = "fixed";
             document.body.style.backgroundPosition = "center";
